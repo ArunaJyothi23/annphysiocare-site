@@ -1,0 +1,15 @@
+{
+  "name": "annphysiocare-website",
+  "version": "1.0.0",
+  "description": "Ann Physiocare website workspace",
+  "scripts": {
+    "start": "node annphysiocare-site/dev-server.js",
+    "dev": "node annphysiocare-site/dev-server.js",
+    "build": "python annphysiocare-site/_src/build.py",
+    "serve": "python -m http.server 8000 --directory annphysiocare-site"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
