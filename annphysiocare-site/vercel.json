@@ -1,0 +1,18 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "outputDirectory": ".",
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/policies-and-procedures.php",
+      "destination": "/policies-and-procedures/",
+      "permanent": true
+    },
+    {
+      "source": "/:page.php",
+      "destination": "/:page/",
+      "permanent": true
+    }
+  ]
+}
+
